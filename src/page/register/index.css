@@ -1,0 +1,53 @@
+.register-wrap{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background: url("http://juetu.francisqiang.top/back/login_bg.jpg");
+    background-size: cover;  
+}
+.register-container{
+    background: rgba(0,0,0,.6);
+    height:100%
+    
+}
+.registerCard{
+    /* width:50%; */
+    height:90%;
+    margin-top:90px;
+    /* margin: 100px auto; */
+    z-index:-9;
+}
+.registerCard h1{
+    color: seashell;
+    font-size: 40px;
+}
+.registerCard .mainText{
+    width:80%;
+    margin:20px auto;
+}
+.mainText .formList{
+    width:80%;
+    margin:0 auto;
+}
+
+.addButton{
+    margin-bottom:0px;
+    margin-right:2px;
+}
+.modifyBtn .ant-input-group-addon{
+    padding:0 0;
+    border: 0px;
+
+}
+.registerCard .largeBtn Button{
+    margin-top: 30px;
+   width:100%;
+   height:40px;
+   font-size: 20px;
+}
+.hasMessage{
+    color: whitesmoke;
+    margin-top: 10px;;
+    margin-bottom: 0px;
+    display: none;
+}

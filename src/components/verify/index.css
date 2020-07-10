@@ -1,0 +1,129 @@
+.image-code {
+    padding: 10px;
+    user-select: none;
+    height:400px;
+    background-color: rgba(0,0,0,.5);
+    color:#fff;
+    position: absolute;
+    top:15%;
+    left:15%;
+    z-index: 999;
+   
+}
+ 
+.image-container {
+    position: relative;
+    background-color: #ddd;
+}
+ 
+.canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ 
+.reload-container {
+    margin: 10px 0;
+}
+ 
+.reload-wrapper {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+ 
+.reload-ico {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: center/cover no-repeat;
+}
+.cancel-container {
+    margin: 10px 0;
+}
+ 
+.cancel-wrapper {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+ 
+.cancel-ico {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: center/cover no-repeat;
+}
+ 
+.reload-tips {
+    font-size: 14px;
+    /* color: #666; */
+    border-radius: 14px;
+}
+ 
+.slider-wrpper {
+    position: relative;
+}
+ 
+.slider-bar {
+    padding: 4px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,0.2));
+    background-color: #ddd;
+    border-radius: 4px;
+}
+ 
+.slider-button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 25px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: transparent center/cover no-repeat;
+    box-shadow: 0 2px 10px 0 #333;
+}
+ 
+/* 提示信息 */
+.tips-container,
+.tips-container--active {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    transition: all 0.25s;
+    background: #fff;
+    border-radius: 5px;
+ 
+    visibility: hidden;
+    opacity: 0;
+}
+ 
+.tips-container--active {
+    visibility: visible;
+    opacity: 1;
+}
+ 
+.tips-ico {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: center/cover no-repeat;
+}
+ 
+.tips-text {
+    color: #666;
+}
+.registerVerify{
+   
+    width:400px;
+    height:500px;
+    background-color: rgba(0,0,0,.5);
+}

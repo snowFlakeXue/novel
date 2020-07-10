@@ -1,0 +1,16 @@
+.createBookInfo{
+    margin:110px auto;
+    text-align: center;
+    font-size:16px;
+}
+.createBookInfo h2{
+    font-size:40px;
+    margin-top: 40px;
+}
+.createBookInfo Button{
+    margin-bottom:20px;
+    margin-top:20px;
+    border-radius: 14px;
+    height:50px;
+    width:180px;
+}

@@ -1,0 +1,13 @@
+.edit-blog{
+    width:98%;
+    margin:30px auto;
+}
+.edit-blog .box{
+    margin-top: 20px;
+    width:70;
+}
+.edit-blog .form{
+   
+    width:80%;
+    float: left;
+}

@@ -1,0 +1,14 @@
+.bookInfo{
+    width:100%
+}
+.bookInfo .left{
+    float:left;
+}
+.bookInfo .left .cover{
+    width:160px;
+    height:180px;
+    background-color: darkgray;
+}
+.bookInfo .left{
+    width:200px;
+}

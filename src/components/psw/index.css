@@ -1,0 +1,43 @@
+.pswstrength{
+    color:#fff
+}
+.pswstrength ul{
+    list-style: none;
+    display: inline-block;
+    margin:0px;
+    padding:0px;
+    
+}
+.pswstrength ul li{
+    float: left;
+}
+.pswstrength ul li:nth-child(2){
+    margin-top:8px;
+    width: 40px;
+    height:4px;
+    border-radius: 4px;
+    background-color: rgb(247, 132, 103);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.pswstrength ul li:nth-child(3){
+    margin-top:8px;
+    width: 60px;
+    height:4px;
+    border-radius: 4px;
+    background-color: rgb(233, 247, 103);
+    margin-right: 10px;
+    margin-left: 10px;
+    display: none;
+}
+.pswstrength ul li:nth-child(4){
+    margin-top:8px;
+    width: 80px;
+    height:4px;
+    border-radius: 4px;
+    background-color: rgb(144, 247, 103);
+    margin-right: 10px;
+    margin-left: 10px;
+    display: none;
+}
+

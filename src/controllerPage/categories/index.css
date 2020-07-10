@@ -1,0 +1,52 @@
+.categoryList{
+    margin:20px auto;
+    padding-left:25%
+}
+.category h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.categoryList ul{
+    margin: 20px auto;
+    list-style: none;
+    padding-left:60px;
+}
+.categoryList ul li p{
+    height:40px;
+    width:50%;
+    background-image: linear-gradient(to right,rgba(151, 248, 235, 0.5),rgba(138, 194, 177, 0.4),rgba(0,0,0,.1));
+    background-color: rgba(0,0,0,.2);
+    border-radius: 4px;
+    vertical-align: center;
+    padding-left:12px;
+    color: seashell;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    top:0px;
+    left:0px
+}
+.categoryList ul li p:hover{
+    background-color: transparent;
+    position: relative;
+    top:-3px;
+    left:-5px;
+    transition: 0.2s left;
+
+}
+.categoryList ul li p::before{
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    /* width:12px;
+    height:8px; */
+    border-left: 9px seashell solid;
+    border-top: 7px transparent solid;
+    border-bottom: 7px transparent solid;
+}
+.categoryList ul ul{
+    display: none;
+}
+.show{
+    display: block !important;
+}

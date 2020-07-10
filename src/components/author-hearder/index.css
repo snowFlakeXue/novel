@@ -1,0 +1,19 @@
+.author-header .left{
+    float: right;
+}
+.author-header .left span{
+    font-size: 30px;
+}
+.author-header .right{
+    float: right;
+    font-size: 20px;
+   
+}
+/* .author-header .right{
+
+} */
+.author-header{
+
+    padding-right:50px;
+    height:65px;
+}

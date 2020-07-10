@@ -1,0 +1,41 @@
+.header{
+  height:60px;
+  /* box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.322); */
+  background-color: rgba(206, 180, 200, 0.247);
+  border-bottom: 1px solid #5cdbd3;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+}
+.right{
+    float: right;
+    height:100%;
+    display:flex;
+    vertical-align: center;
+    align-items: center;
+
+}
+.logo{
+    float: left;
+    padding-top:7px ;
+    
+}
+.logo span{
+    margin-left: 20px;
+    font-size: 30px;
+  
+}
+.logo img:hover{
+    transform: rotate(666turn);
+    transition-duration: 59s;
+    transition-timing-function: cubic-bezier(.34, 0, .84, 1)
+}
+.name{
+    float:left
+}
+.name img{
+    width:300px;
+    height:56px;
+}
